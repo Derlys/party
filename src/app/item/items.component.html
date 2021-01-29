@@ -1,4 +1,6 @@
-<GridLayout class="page">
-    <img  iosOverflowSafeArea="true" stretch="aspectFill" src="res://disco-ball.jpg" alt="esta es la image">
-    <Label color="white" text="Hello Developer"></Label>
+<GridLayout rows="*, auto" class="page">
+    <img rowSpan="2"  iosOverflowSafeArea="true" stretch="aspectFill" src="res://disco-ball.jpg" alt="esta es la image">
+    <Button row="1" text="Let's Party" (tap)="togglePlay();" style="height: 50; width: 200; font-weight: bold; color: white; text-align: center; background-color: purple; padding: 10; border-radius: 5;">
+    </Button>
 </GridLayout>
+
